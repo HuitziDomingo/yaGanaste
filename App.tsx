@@ -28,6 +28,7 @@ export default function App() {
 
   return (
     <View style={styles.center}>
+      <Text style={styles.title}>Nuestros Bancos.</Text>
       {isLoading ? (
         <ActivityIndicator />
       ) : (
